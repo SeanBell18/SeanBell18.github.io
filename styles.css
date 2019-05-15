@@ -1,0 +1,98 @@
+body {
+    background-color: #6B5F5F;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+#wrapper {
+    width: 1440px;
+    background-color: white;
+}
+img {
+    width: 1440px;
+}
+.inlineImg {
+    width:480px;
+    float: left;
+}
+.inlineImg, .fish {
+    margin: 75px 0;
+
+}
+.inline {
+    padding: 0px;
+    border: 0px;
+}
+p, h1, h2, h3, h5, .list {
+    text-align: center;
+    color: #6B5F5F;
+}
+li {
+    list-style-type: none;
+    color: #6B5F5F;
+}
+p, li {
+    font-size: 30px;
+    margin: 0px;
+}
+br, li {
+    display: block;
+    margin-top: 10px;
+}
+.large, h4 {
+    text-align: left;
+    margin-left: 250px;
+    font-size: 30px;
+}
+h1 {
+    color: #13509F;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+h2 {
+    color: darkorange;
+    font-size: 40px;
+}
+h3 {
+    color: darkorange;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+h4 {
+    color: #13509F;
+}
+h5 {
+    font-size: 25px;
+}
+.note {
+    font-size: 15px;
+    margin-left: 250px;
+}
+#noPad {
+    padding: 0px;
+}
+#call {
+    margin-top: 5px;
+    font-size: 45px;
+}
+#bluebox {
+    width: 480px;
+    height: 100px;
+    background-color: #13509F;
+    position: relative;
+    left:480px;
+    bottom:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#bluebox h2, #bluebox h5 {
+    margin: 2px;
+    color:white;
+}
+#line {
+    position: relative;
+    bottom:30px;
+    color: darkorange;
+    font-size: 50px;
+}
